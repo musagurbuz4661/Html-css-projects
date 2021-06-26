@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  
+  font-size: 20px;
+  
+}
+
+.section-img1 {
+  background: url(img/Image1.jpg) center/cover;
+  
+  
+  
+}
+
+.section-img2{
+  background: url(img/Image2.jpg) center/cover;
+  
+}
+
+.section-img3 {
+  background: url(img/Image3.jpg) center/cover;
+  
+}
+
+.section-img1 {
+  background: url(img/Image1.jpg) center/cover;
+
+}
+ 
+.section-img1,.section-img2,.section-img3{
+  display: flex;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  opacity: 0.7;
+
+  
+}
+section{
+  display: block;
+}
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light{
+  
+  background-color: #f4f4f4;
+  color: rgb(23, 21, 21);
+  padding: 80px 80px;
+  word-spacing: 5px;
+}
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+  padding: 80px 80px;
+  word-spacing: 5px;
+}
+h2{
+  display: block;
+}
+div{
+  display: block;
+}
+.head-container{
+  text-align: center;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.head-img1{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-size: 1.25em;
+}
+.head-img{
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+}
+.head2{
+  padding-bottom: 30px;
+  font-weight: bold;
+}
